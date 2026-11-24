@@ -1,0 +1,186 @@
+{
+  "brand": {
+    "name": "UniteMind AI",
+    "title": { "en": "UniteMind AI | Intelligent scheduling", "zh": "UniteMind AI | 智能调度" },
+    "description": {
+      "en": "UniteMind AI builds scheduling agents for fleets, crews, machines and computing jobs.",
+      "zh": "UniteMind AI 为车队、班组、设备和算力任务打造智能调度系统。"
+    }
+  },
+  "nav": [
+    { "to": "how", "label": { "en": "How it works", "zh": "工作方式" } },
+    { "to": "fit", "label": { "en": "Where it fits", "zh": "适用场景" } },
+    { "to": "abilities", "label": { "en": "Capabilities", "zh": "核心能力" } },
+    { "to": "start", "label": { "en": "Getting started", "zh": "如何开始" } },
+    { "to": "faq", "label": { "en": "FAQ", "zh": "常见问题" } }
+  ],
+  "hero": {
+    "heading": { "en": "Plans change. Your schedule keeps up.", "zh": "计划会变，调度跟得上。" },
+    "text": {
+      "en": "UniteMind AI builds scheduling agents for fleets, crews and machines. When a road closes or a vehicle drops out, they find a new plan and show your dispatcher why.",
+      "zh": "UniteMind AI 为车队、班组和设备打造智能调度系统。道路封闭或车辆停运时，它会找出新的计划，并告诉调度员为什么这样安排。"
+    },
+    "primary": { "en": "Talk to us", "zh": "联系我们" },
+    "secondary": { "en": "Break the plan", "zh": "打乱计划试试" }
+  },
+  "demo": {
+    "label": { "en": "Live dispatch", "zh": "实时调度" },
+    "note": { "en": "Made-up map and orders. The planning is real and runs in your browser.", "zh": "地图和订单是虚构的，规划过程是真实的，就在你的浏览器里运行。" },
+    "mapAlt": { "en": "Road map with four vehicles driving to their assigned jobs", "zh": "道路图：四辆车正驶向各自的任务" },
+    "timeline": { "en": "Next 50 minutes", "zh": "未来 50 分钟" },
+    "timelineAlt": { "en": "Timeline of each vehicle's planned jobs", "zh": "每辆车的任务时间表" },
+    "rush": { "en": "Add a rush order", "zh": "插入急单" },
+    "offline": { "en": "Take a vehicle offline", "zh": "让一辆车停运" },
+    "close": { "en": "Close a road", "zh": "封一条路" },
+    "pause": { "en": "Pause", "zh": "暂停" },
+    "play": { "en": "Play", "zh": "继续" },
+    "open": { "en": "open jobs", "zh": "待完成任务" },
+    "late": { "en": "expected late", "zh": "预计迟到" },
+    "served": { "en": "done on time", "zh": "准时完成" },
+    "lateMark": { "en": "late", "zh": "迟到" },
+    "offMark": { "en": "offline", "zh": "停运" },
+    "logStart": { "en": "Plan ready. Four vehicles on the road.", "zh": "计划已生成，四辆车已出发。" },
+    "logRush": { "en": "Rush order {job} arrived.", "zh": "收到急单 {job}。" },
+    "logOffline": { "en": "Vehicle {v} went offline.", "zh": "{v} 车停运。" },
+    "logClose": { "en": "A road closed.", "zh": "一条道路封闭。" },
+    "logOnline": { "en": "Vehicle {v} is back.", "zh": "{v} 车恢复运行。" },
+    "logReopen": { "en": "The road reopened.", "zh": "道路重新开放。" },
+    "logResult": { "en": "Old plan: {a} late. New plan: {b} late. Jobs reassigned: {m}.", "zh": "原计划迟到 {a} 单，新计划迟到 {b} 单，改派 {m} 单。" },
+    "logTime": { "en": "Replanned in {ms} ms", "zh": "重新规划用时 {ms} 毫秒" }
+  },
+  "how": {
+    "heading": { "en": "From a messy day to a plan you can send.", "zh": "把混乱的一天，变成可以下发的计划。" },
+    "steps": [
+      {
+        "name": { "en": "Sense", "zh": "感知" },
+        "title": { "en": "See the whole board", "zh": "看清全局" },
+        "text": { "en": "Orders, positions, shifts and road status come together in one live picture, so every decision starts from the same facts.", "zh": "订单、位置、班次和路况汇成一张实时全景图，每个决定都基于同样的事实。" }
+      },
+      {
+        "name": { "en": "Decide", "zh": "决策" },
+        "title": { "en": "Weigh every assignment", "zh": "比较各种安排" },
+        "text": { "en": "The solver compares ways to assign the work, drops the ones that break your rules, and keeps the plan with the least delay.", "zh": "求解器比较各种派工方式，排除违反规则的方案，保留延误最少的计划。" }
+      },
+      {
+        "name": { "en": "Replan", "zh": "重排" },
+        "title": { "en": "Change only what has to change", "zh": "只改必须改的部分" },
+        "text": { "en": "When a road closes, the affected jobs move and the rest of the day stays put. A person approves the change before it goes out.", "zh": "道路封闭时，只调整受影响的任务，其余安排不变。改动下发之前，由人确认。" }
+      }
+    ],
+    "approve": { "en": "Waiting for approval", "zh": "等待确认" },
+    "closed": { "en": "Road closed", "zh": "道路封闭" },
+    "alt": { "en": "Diagram: vehicles and jobs, then routes, then a changed route around a closed road", "zh": "示意图：先是车辆和任务，然后是路线，最后绕开封闭道路的新路线" }
+  },
+  "fit": {
+    "heading": { "en": "One planner, four kinds of work.", "zh": "一套调度，四类工作。" },
+    "lines": [
+      {
+        "name": { "en": "Fleets", "zh": "运输车队" },
+        "text": { "en": "Match loads to vehicles and keep routes on time.", "zh": "把货物匹配给车辆，让路线保持准时。" },
+        "stops": [
+          { "en": "Order", "zh": "订单" }, { "en": "Load", "zh": "装车" }, { "en": "Route", "zh": "路线" }, { "en": "Delivery", "zh": "送达" }
+        ]
+      },
+      {
+        "name": { "en": "Field crews", "zh": "现场班组" },
+        "text": { "en": "Send the right skills to the right site.", "zh": "把合适的人派到合适的现场。" },
+        "stops": [
+          { "en": "Request", "zh": "报修" }, { "en": "Skill match", "zh": "技能匹配" }, { "en": "Visit", "zh": "上门" }, { "en": "Report", "zh": "回单" }
+        ]
+      },
+      {
+        "name": { "en": "Production", "zh": "生产线" },
+        "text": { "en": "Order the work to cut changeovers and waiting.", "zh": "合理排产，减少换线和等待。" },
+        "stops": [
+          { "en": "Work order", "zh": "工单" }, { "en": "Machine", "zh": "机台" }, { "en": "Changeover", "zh": "换线" }, { "en": "Finished", "zh": "完工" }
+        ]
+      },
+      {
+        "name": { "en": "Computing", "zh": "算力任务" },
+        "text": { "en": "Place jobs on GPUs by deadline and priority.", "zh": "按截止时间和优先级把任务分配到 GPU。" },
+        "stops": [
+          { "en": "Job", "zh": "任务" }, { "en": "Queue", "zh": "排队" }, { "en": "GPU", "zh": "GPU" }, { "en": "Result", "zh": "结果" }
+        ]
+      }
+    ]
+  },
+  "abilities": {
+    "heading": { "en": "Built for the people who run the day.", "zh": "为真正管事的人而做。" },
+    "rules": {
+      "title": { "en": "Rules in plain words", "zh": "用日常语言定规则" },
+      "text": { "en": "Say the rule the way you would say it to a colleague. It becomes a limit the solver must respect.", "zh": "像跟同事说话一样说出规则，它就会变成求解器必须遵守的限制。" },
+      "said": { "en": "“Crew B can't start before 9 on Mondays.”", "zh": "“周一 9 点前，B 组不能开工。”" },
+      "parts": [
+        { "key": { "en": "Who", "zh": "对象" }, "value": { "en": "Crew B", "zh": "B 组" } },
+        { "key": { "en": "When", "zh": "时间" }, "value": { "en": "Monday", "zh": "周一" } },
+        { "key": { "en": "Limit", "zh": "限制" }, "value": { "en": "Start at 09:00 or later", "zh": "09:00 或之后开工" } }
+      ]
+    },
+    "reasons": {
+      "title": { "en": "A reason for every move", "zh": "每次调整都有理由" },
+      "text": { "en": "Each change says what moved, what it saves and which rule it keeps.", "zh": "每次改动都会写明改了什么、省了多少、遵守了哪条规则。" },
+      "move": { "en": "Job 114", "zh": "任务 114" },
+      "facts": [
+        { "en": "9 min less driving", "zh": "少开 9 分钟" },
+        { "en": "Still arrives before 10:40", "zh": "仍在 10:40 前到达" }
+      ],
+      "example": { "en": "Example", "zh": "示例" }
+    },
+    "more": [
+      {
+        "title": { "en": "The dispatcher decides", "zh": "调度员说了算" },
+        "text": { "en": "Approve, edit or reject any change. You choose which ones may go out on their own.", "zh": "任何改动都可以批准、修改或拒绝，哪些可以自动下发由你决定。" }
+      },
+      {
+        "title": { "en": "Works with what you have", "zh": "接得上现有系统" },
+        "text": { "en": "Start from a spreadsheet, then connect the systems you already use.", "zh": "先从一张表格开始，再接入你正在用的系统。" }
+      }
+    ]
+  },
+  "start": {
+    "heading": { "en": "Start with a shadow run.", "zh": "从并行试运行开始。" },
+    "steps": [
+      { "title": { "en": "Replay", "zh": "回放" }, "text": { "en": "We run your past schedules through the planner and compare the results with what happened.", "zh": "用你过去的排班数据跑一遍，和实际情况对比。" } },
+      { "title": { "en": "Shadow", "zh": "并行" }, "text": { "en": "The planner runs beside your dispatchers. It suggests and nothing is sent.", "zh": "系统和调度员同时运行，只给建议，不下发任何指令。" } },
+      { "title": { "en": "Assist", "zh": "辅助" }, "text": { "en": "Dispatchers approve changes from one screen, and you decide how far to go.", "zh": "调度员在一个界面里确认改动，用到什么程度由你决定。" } }
+    ]
+  },
+  "cases": {
+    "heading": { "en": "Case studies", "zh": "客户案例" },
+    "items": []
+  },
+  "team": {
+    "heading": { "en": "The team", "zh": "团队" },
+    "items": []
+  },
+  "faq": {
+    "heading": { "en": "Questions dispatch teams ask", "zh": "调度团队常问的问题" },
+    "items": [
+      {
+        "q": { "en": "Does it replace our dispatchers?", "zh": "它会取代我们的调度员吗？" },
+        "a": { "en": "No. It proposes plans and explains them. Your dispatchers approve, edit or reject.", "zh": "不会。它提出计划并说明理由，由调度员批准、修改或拒绝。" }
+      },
+      {
+        "q": { "en": "What data do we need to begin?", "zh": "开始需要哪些数据？" },
+        "a": { "en": "A list of jobs, a list of vehicles, crews or machines, and your time rules. A spreadsheet is enough for the first replay.", "zh": "任务清单，车辆、班组或设备的清单，以及时间规则。第一次回放用一张表格就够。" }
+      },
+      {
+        "q": { "en": "Where does the AI come in?", "zh": "AI 用在哪里？" },
+        "a": { "en": "Language models read requests and rules. A solver builds the schedule, and code checks every hard limit before a plan is shown.", "zh": "语言模型负责理解需求和规则，求解器负责排计划，展示之前由程序检查每一条硬性限制。" }
+      },
+      {
+        "q": { "en": "Is the demo on this page real?", "zh": "这个页面上的演示是真的吗？" },
+        "a": { "en": "The map and orders are made up. The planning is real: every time you break the plan, your browser computes a new one.", "zh": "地图和订单是虚构的，但规划是真的：你每打乱一次计划，浏览器就会重新计算一次。" }
+      }
+    ]
+  },
+  "contact": {
+    "heading": { "en": "Bring us the schedule that keeps breaking.", "zh": "把那份总被打乱的排班给我们看看。" },
+    "text": { "en": "Tell us what you schedule, how many vehicles, crews or machines you have, and what goes wrong most often.", "zh": "告诉我们你在调度什么、有多少车辆、班组或设备，以及最常出什么问题。" },
+    "email": "",
+    "emailMissing": { "en": "Contact email to be added", "zh": "联系邮箱待填写" }
+  },
+  "footer": {
+    "note": { "en": "Intelligent scheduling for fleets, crews, machines and computing.", "zh": "面向车队、班组、设备和算力的智能调度。" }
+  }
+}
